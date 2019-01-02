@@ -1,7 +1,6 @@
-﻿using System;
-using North.Models.Entities;
-using System;
+﻿using North.Models.Entities;
 using North.Models.ViewModels;
+using System;
 
 namespace North.BLL.Repository
 {
@@ -23,7 +22,7 @@ namespace North.BLL.Repository
         }
     }
 
-    public class CategoryRepo
+    public class CategoryRepo:RepositoryBase<Category,int>
     {
 
     }

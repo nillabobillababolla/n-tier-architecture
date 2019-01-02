@@ -11,7 +11,7 @@ namespace North.BLL.Repository
     {
         protected static MyContext db;
 
-        public RepositoryBase()
+        protected RepositoryBase()
         {
             db = db ?? new MyContext();
         }
