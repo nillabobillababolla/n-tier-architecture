@@ -43,5 +43,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\North.DAL\North.DAL.csproj">
+      <Project>{b862e200-a872-4649-8b99-4611119ecac3}</Project>
+      <Name>North.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\North.Models\North.Models.csproj">
+      <Project>{14ffb52b-714e-46d0-ab2c-6e249dc7e896}</Project>
+      <Name>North.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
